@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -29,26 +30,21 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <androidx.core.widget.NestedScrollView
+    <LinearLayout
+        android:layout_below="@+id/bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/bar">
+        android:orientation="vertical">
 
-        <LinearLayout
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/recycler_view_posts"
+            app:spanCount="1"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
-
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:id="@+id/recycler_view_posts"/>
-
-        </LinearLayout>
-
-    </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
 
 </RelativeLayout>

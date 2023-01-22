@@ -59,7 +59,7 @@ public class SearchFragment extends Fragment {
 //        recyclerView.setAdapter(userAdapter);
 
         search_bar = view.findViewById(R.id.search_bar);
-          search = view.findViewById(R.id.search);
+        search = view.findViewById(R.id.search);
         FirebaseRecyclerOptions<User> options =
                 new FirebaseRecyclerOptions.Builder<User>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("Users"), User.class)
