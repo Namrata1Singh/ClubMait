@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ClubMait</string>
+
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="student_string">Student</string>
+    <string name="president_string">President</string>
+    <string name="get_started_as_string">Get started as</string>
+    <string name="login_string">login</string>
+    <string name="register_string">Register</string>
+    <string name="new_user__string">new user?</string>
+    <string name="welcome_back__string">Welcome back!</string>
+    <string name="user_id_string">User id</string>
+    <string name="password_string">Password</string>
+    <string name="login_ek1_string">login</string>
+    <string name="register_ek1_string">Register</string>
+    <string name="welcome_string">Welcome </string>
+    <string name="enter_your_department_string">Enter your department</string>
+    <string name="enter_your_mail_string">Enter your mail</string>
+    <string name="enter_password_string">Enter password</string>
+    <string name="enter_your_name_string">Enter your name</string>
+    <string name="login_ek2_string">login</string>
+    <string name="register_ek2_string">Register</string>
+    <string name="welcome_ek1_string">Welcome </string>
+    <string name="enter_key_string">Enter  key</string>
+    <string name="enter_your_mail_ek1_string">Enter your mail</string>
+    <string name="enter_society_name_string">Enter society name</string>
+    <string name="about_society_string">About society</string>
+    <string name="login_ek3_string">login</string>
+    <string name="profile_string">Profile</string>
+    <string name="members_string">Members</string>
+    <string name="posts_string">Posts</string>
+    <string name="rate_us_string">Rate us</string>
+    <string name="societies_string">Societies</string>
+    <string name="mait_profile_string">Mait profile</string>
+    <string name="mait_website_string">Mait website</string>
+    <string name="share_string">share</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log-Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "848107790377",
+    "project_id": "clubmait",
+    "storage_bucket": "clubmait.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848107790377:android:5f88e588fb2d4ae504bc38",
+        "android_client_info": {
+          "package_name": "com.namrata.clubmait"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848107790377-07ir2u8u5qihpcn0q2um30v5uvp7kvd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0tl-1fgDc3oMQ8L26MTZjS-zWZ9qY3bU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848107790377-07ir2u8u5qihpcn0q2um30v5uvp7kvd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
